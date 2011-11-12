@@ -9,11 +9,18 @@
 #      History:
 =============================================================================*/
 #include <stdio.h>
+int max(int num1, int num2) {
+    return num1 > num2 ? num1 : num2;
+}
+
 int main(){
-int a,b,c,temp,max;
-printf("输入三个整数：");
-scanf("%d,%d,%d",&a,&b,&c);
-temp=(a>b)? a:b;
-max=(temp>c)? temp:c;
-printf("最大数max=%d",max);
-return 0;}
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+    int maxNum;
+    maxNum = max(max(a,b),c);
+    printf("max is %d\n",maxNum);
+
+    return 0;
+}
+
+
