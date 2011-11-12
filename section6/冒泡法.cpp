@@ -1,3 +1,4 @@
+//没有运行过，重写；还有，以后文件名用英文，git显示不了中文
 #include <stdio.h>
 int main(){
     int i,j,t;
