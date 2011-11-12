@@ -9,11 +9,12 @@
 #      History:
 =============================================================================*/
 //
-//重写。根本没运行过
+// 更改了n3的类型
 
 #include <stdio.h>
 int main(){
-    int n1 = 0,n2 = 0,n3 = 0;
+    int n1 = 0,n2 = 0;
+    float n3 = 0;
     int k = 1;
     for(k = 1;k <= 100;k++)
         n1 = n1 + k;
@@ -21,6 +22,6 @@ int main(){
         n2 = n2 + k*k;
     for(k = 1;k <= 10;k++)
         n3 = n3 + 1/k;
-    printf("sum=%d",n1+n2+n3);
+    printf("sum=%f",n1+n2+n3);
     return 0;
 }
