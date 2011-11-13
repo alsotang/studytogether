@@ -13,7 +13,7 @@
 int main(){
     int day;
     int sum = 1;
-    for(day = 1;day < 10;day++)
+    for(day = 1;day < 10;day++) //这里我又觉得应该day = 0，你那里有没有正确答案？
     {
         sum = (sum + 1) * 2;
     }
